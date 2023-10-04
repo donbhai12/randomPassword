@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(19, 5, 39);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    
+    height: 25rem;
+    width: 40rem;
+    border: 1px solid white;
+    margin:6rem;
+}
+.container h1{
+    color: #fff;
+    font-weight: 800;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 40px ;
+}
+.container button{
+    margin-left:25% ;
+    margin-top: 10px ;
+    height: 40px;
+    width: 90px;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-left: 40%;
+}
+.container i{
+   
+   color:rgb(235, 211, 211);
+   
+   
+}
+.display{
+    margin-left:9.5rem ;
+    margin-top: 5%;
+    height: 50px;
+    width: 300px ;
+    
+    font-size: 2rem;
+    padding: 5px ;
+    background-color: yellow;
+    border-radius: 4px ;
+}
+input{
+    outline: none;
+    border: none;
+    background-color: yellow;
+   width: 155px;
+   font-size: 30px ;
+}
+.display i{
+    margin-left: 90px ;
+    color: black;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .container {
+      margin: 0.5rem; /* Adjust margin for smaller screens */
+     
+    }
+  
+    .container button {
+      margin-top: 20px; /* Increase top margin for better spacing on mobile */
+    }
+  
+    .display {
+      margin-top: 10%;
+      margin-left: 40px; /* Adjust margin for smaller screens */
+    }
+  }
+  /* Add this CSS to your existing styles */
+.alert-box {
+    position: absolute;
+    background-color: rgba(42, 226, 18, 0.8);
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    z-index: 9999; /* Ensure the alert box appears above other elements */
+  }
+  
